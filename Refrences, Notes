@@ -8,7 +8,7 @@ https://ilabs.eccouncil.org/ethical-hacking-exercises/
 https://github.com/undergroundwires/CEH-in-bullet-points
 https://github.com/Samsar4/Ethical-Hacking-Labs 
 https://anontuttuvenus.medium.com/ceh-practical-exam-review-185ea4cef82a 
-https://www.golinuxcloud.com/dvwa-sql-injection/ 
+ 
 
 ****CRACKING THE HASHES**** 
 ---->>> https://hashcat.net/wiki/doku.php?id=example_hashes  [for hashcat]
@@ -25,5 +25,7 @@ ASP.NET applications often using Microsoft SQL Server,PHP applications is likely
 Additionally we can assume the database type from the web server and operating system of the target.
 For example if the web server is running Apache and PHP and it is a Linux host then the database has more possibilities to be MySQL.
 
+https://bughacking.com/dvwa-ultimate-guide-first-steps-and-walkthrough/#SQL_Injection
+https://www.golinuxcloud.com/dvwa-sql-injection/ 
 
 
