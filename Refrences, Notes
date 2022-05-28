@@ -19,6 +19,10 @@ https://md5decrypt.net/en/
 https://hashkiller.io/listmanager 
 https://www.tunnelsup.com/hash-analyzer/ 
 
+------DVWA
+ASP.NET applications often using Microsoft SQL Server,PHP applications is likely to use MySQL and Java probably Oracle or MySQL.
+Additionally we can assume the database type from the web server and operating system of the target.
+For example if the web server is running Apache and PHP and it is a Linux host then the database has more possibilities to be MySQL.
 
 
 
