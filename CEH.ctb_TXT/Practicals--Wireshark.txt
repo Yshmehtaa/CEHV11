@@ -1,0 +1,39 @@
+## Wireshark
+ https://www.alphr.com/read-packets-wireshark/ 
+ https://schwartzdaniel.com/5-useful-tips-for-analyzing-wireshark-packet-captures/ 
+ https://schwartzdaniel.com/introduction-wireshark-part-2/  
+ 
+ https://www.youtube.com/watch?v=a-Fg7VVDf14 for identifying the username and passwords (filter with http post method at last you can see the uname & passwd if they are in base64 you can always try with cyberchef )  
+ 
+ https://www.youtube.com/watch?v=MphYj90_eJA 
+ to identify the DOS attack go to Statistics in IPV4 source and the destination addresses choose who send the most of the the packets 
+ or 
+ can also go to analyze tab and expert info we can see the basic overview 
+ 
+ https://www.youtube.com/watch?v=3t1BNAavrlQ 
+ QUESTIONS like  
+ https://www.malware-traffic-analysis.net/2014/11/16/index.html 
+ 
+ what are the infected file(s) downloaded and their hashes ? 
+ what is URL/Domain of the infected site ? 
+ what is the IP of the infected machine ? 
+ what is the hostname of the infected machine ?
+ what is the mac of the infected machine ? 
+ 
+ https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet-1.jpg 
+ https://www.comparitech.com/net-admin/wireshark-cheat-sheet/ 
+ https://www.stationx.net/wireshark-cheat-sheet
+
+http.request.method==POST  (for caturing the usrname,pass)
+
+#ToDetect the DDOS attack 
+go to statistics > IPv4 statistics > source and destination addresses 
+
+#Finding the infected files download 
+files > export > HTTP objects list  
+
+To find the hash of the file us 
+HashMyFiles 
+
+
+

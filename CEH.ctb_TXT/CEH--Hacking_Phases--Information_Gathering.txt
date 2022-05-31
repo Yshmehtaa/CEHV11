@@ -1,0 +1,69 @@
+### Information Gathering
+Passive recon 
+
+
+
+
+Discovering Email address -  
+website- 
+
+1.hunter.io 
+https://hunter.io/ 
+
+2.phonebook.cz 
+https://phonebook.cz/ 
+
+3.voilanorbert.com 
+https://www.voilanorbert.com/ 
+
+4.connect.clearbit.com (can only be used in G.chrome)
+https://connect.clearbit.com/ 
+
+5.emailhippo.com (to verify the emails ) / tools.verifyemailaddress.io 
+https://tools.emailhippo.com/ 
+
+6.	email-checker.net
+https://email-checker.net/ 
+
+7.theHarvester cmd line lookup tool 
+
+Breached Credentials   
+
+dehashed.com 
+
+Thecybermentor github.com/hmaverickadams - breach-parse(tool collecting all data breached email and passwords ) 
+https://github.com/hmaverickadams 
+
+hashes.org  
+
+Hunting Sub-domain.com 
+Web-Information Gathering 
+sublist3r  
+sublist3r -d domain name 
+
+crt.sh 
+%.tesla.com 
+
+owasp amass 
+go on github and download 
+
+tomnomnom httprobe 
+it will give you the list of probe that which website is alive or not 
+
+Identifying Website Technology 
+buildwith.com 
+
+wappalyzer firefox
+
+whatweb tool in linux  
+
+To Get Every Reconnace At I one place  website.informer.com
+https://website.informer.com/ 
+
+
+
+
+
+ 
+
+

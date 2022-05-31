@@ -1,0 +1,86 @@
+## Nmap
+https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/ 
+https://hackertarget.com/nmap-tutorial/
+https://media.x-ra.de/doc/NmapCheatSheetv1.1.pdf
+https://3os.org/penetration-testing/cheatsheets/nmap-cheatsheet/ 
+https://www.stationx.net/nmap-cheat-sheet/
+https://infosecsanyam.medium.com/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692
+
+#Target 
+nmap -sn -v  192.168.1.0/24 
+
+nmap -A -p- 192.168.1.1 --min-rate 10000 -o /desktop/nmapscans.txt 
+
+nmap -Pn 192.168.1.1  (direct scan for ports if host is known)
+
+nmap -iL scans.txt  (will scan all the ip in the text file )
+
+nmap xyz.com  (will scan the domain) 
+
+
+#Scripts 
+locate * .nse | grep smb,http,ftp 
+
+cd /usr/share/nmpa/scripts
+
+nmap --scripts http-headers 
+nmap -sC (default script) 
+
+#Technique 
+-sA (help to detect the firewall)
+ 
+#Status 
+open 
+close
+filtered         NULL scan (firewall can send null packages)
+unfiltered      IDLE scan  
+open | filtered
+close | filtered 
+
+#Timing 
+T0 = paranoid 
+T1 = Sneaky 
+T2  = polite  
+T3 = normal scan  
+T4 = aggresssive 
+T5= insane 
+ 
+--min-rate 10000
+--max-rate 
+
+#Firewall 
+-sX  xmas scan
+-v verbose scan 
+-sM 
+-sA 
+
+#Firewall techniques 
+
+packet fragmentation 
+source routing 
+source port manipulation 
+ip addresss decoy 
+ip address spoofing
+creating custom packects
+Randomizing host order 
+sending bad checksum 
+proxy servers
+anonymizers
+
+#firewall/ids evasion technique 
+nmap -f ip  (packet fragments) 
+nmap -g or --source-port ip (source port manipulation) 
+nmap -mtu ip  (maximum transmit unit) 
+nmap -D RND:10 ip (-D decoy scan and RND:10 generates a random and non-reversed ip address)
+
+#for creating custom packets 
+nmap ip --data 0xdeadbeef (--data and HEX string )
+nmap ip --data-string “Heloo-this-goin-crash”
+nmap ip --data-length 5 
+nmap --randomize-hosts 10 ip 
+nmap --badsum ip 
+
+#sniffer detection 
+nmap --script sniffer-detect ip 
+
+

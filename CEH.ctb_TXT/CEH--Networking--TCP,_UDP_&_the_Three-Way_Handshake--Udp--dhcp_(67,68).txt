@@ -1,0 +1,3 @@
+##### dhcp (67,68)
+Associate the IP address for the pc Static/Random  
+

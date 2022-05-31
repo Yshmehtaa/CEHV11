@@ -1,0 +1,8 @@
+### OSI model
+When we recive the data we go down to till application and transfering then application to physical 
+when we are trouble shooting then it's a good idea to go from physical to application (during help desktop)
+
+ 
+
+
+

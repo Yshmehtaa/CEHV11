@@ -1,0 +1,131 @@
+## Intro in python
+
+
+#! /bin/python3  (#! shebang )
+
+Strings
+
+
+#Print string 
+print('hello, world!') 
+
+Math 
+
+#! /bin/python3 
+
+#math 
+print(50 + 50 ) #add 
+print(50 - 50 ) #sub
+print(50 * 50 ) #multi
+print(50 / 50 ) #div
+print(50 + 50 - 50 * 50 / 50) 
+print(50 ** 50) #exponents 
+print(50 % 6)#modulo  or remainder 
+print(50 / 6)
+print(50 // 6)
+
+#to run 
+python3 math.py 
+
+Variables and methods
+gedit variable.py
+#!/bin/python3 
+
+#Variables and methods 
+quote = “All is fair in love & war.” 
+print(quote)
+
+#to run 
+gedit variable.py& 
+
+Method -------
+quote = “All is fair in love & war.” 
+print(quote.upper()) #uppercase
+print(quote.lower()) #lowercase 
+print(quote.title()) #title letters uppercase 
+print(len(quote))
+
+
+age += 1 
+print(age) 
+
+output:- 31 
+
+Functions
+  
+output- 
+My name is Heath and I am 30 years old 
+
+#adding parammeters 
+def add_a_num(num):	
+	print(num + 100) 
+
+add_a_num(100) 
+
+output- 200 
+
+#multiple parameters 
+def add(x,y):
+	print(x + y) 
+add(10,1) 
+
+output- 11 
+
+
+
+Boolean expressions (True or False)
+
+output- 
+
+
+Relational and Boolean operators 
+
+
+
+Conditional Statements
+
+ output - 
+
+Lists
+
+
+output 
+
+
+Tuples
+
+
+Looping 
+
+output- 
+cucumber
+spinach
+cabbage 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Importing Modules
+
+
+Advanced Strings
+   
+output- 
+ 
+
+Dictionaries- Key/value pairs {} 
+
+
+Sockets  	
+ 
+output- 
+
+
+
+

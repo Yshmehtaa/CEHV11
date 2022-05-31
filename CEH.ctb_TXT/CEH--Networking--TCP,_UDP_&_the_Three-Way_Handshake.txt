@@ -1,0 +1,27 @@
+### TCP, UDP & the Three-Way Handshake
+Transmission Control Protocol and User-Datagram Protocol 
+
+Tcp - Connection Oriented Protocol is used for high reliability. 
+for eg. http, https, ssh, ftp 
+
+Udp - Connection-less Streaming,VoIP, DNS  
+for eg. DHCP  
+
+ 
+ 
+ 
+ 
+
+Three-Way hand shake 
+SYN > SYN ACK > ACK  
+
+to be continued ... but read this link First 
+https://www.geeksforgeeks.org/tcp-ip-ports-and-its-applications/?ref=lbp 
+https://www.geeksforgeeks.org/various-tcp-and-udp-ports/  
+https://www.geeksforgeeks.org/why-is-youtube-using-tcp-but-not-udp/?ref=rp
+https://www.geeksforgeeks.org/examples-of-tcp-and-udp-in-real-life/?ref=rp 
+https://www.geeksforgeeks.org/why-does-netflix-use-tcp-but-not-udp-for-streaming-video/?ref=rp 
+
+
+
+

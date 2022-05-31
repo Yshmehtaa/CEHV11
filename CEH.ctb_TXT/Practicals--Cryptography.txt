@@ -1,0 +1,29 @@
+## Cryptography
+Things to do in crypto 
+• Calc one way Hash using hashcalc 
+• Perform file and text message encryption using cryptforge  (performed in VM) 
+• Encrypt and decrypt data using BCTextencoder
+• create and use Self-signed certificates 
+• Perform disk encryption using veracrypt  (performed in VM )
+
+• Calc one way Hash using hashcalc
+So this is how you calc or see if the file is been tempared or not by seeing the digital signatures 
+ 
+
+• Encrypt and decrypt data using BCTextencoder
+  
+got the encrypted msg now decrypt it 
+password- qwerty@1234 
+
+
+
+
+• Create and use Self-signed certificates 
+Go to search bar in windows type IIS [ Internet information servie] 
+select server  certificates 
+on Action select create self-signed certificates
+Add the domain and in action tab select Binding Add it 
+GO to browser for surfing 
+
+
+

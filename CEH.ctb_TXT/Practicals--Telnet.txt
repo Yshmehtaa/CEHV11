@@ -1,0 +1,6 @@
+## Telnet
+telnet www.moviescope.com 80 
+GET / HTTP/1.0  (enter twice) 
+
+
+

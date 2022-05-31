@@ -1,0 +1,11 @@
+### Mac address
+Mac Addresses are Layer 2 coomunicate through SWITCHES 
+we get the mac address from NIC (Network Interface Card) inbuild in the System 
+
+ifconfig - in eth0 the ether-shows the mac address 
+
+
+Mac address have identifier so 1st 3 part are identified by the company and other are randomly given you can check by mac address lookup  
+
+
+

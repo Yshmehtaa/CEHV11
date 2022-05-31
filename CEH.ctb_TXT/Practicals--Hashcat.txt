@@ -1,0 +1,7 @@
+## Hashcat
+hashcat -m 0 /home/parrot/Desktop/hashfile.txt /usr/share/wordlist/rockyou.txt  
+
+-m mode 
+-a  attack mode 
+
+

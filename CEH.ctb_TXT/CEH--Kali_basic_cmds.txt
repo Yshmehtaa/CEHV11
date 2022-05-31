@@ -1,0 +1,59 @@
+## Kali basic cmds
+Basic coomands 
+sudo su 
+sudo su - 
+pwd - present working directory 
+cd - change direcory 
+cd ..  - to go back 
+ls - lists 
+ls -la  :- list everything 
+mkdir - make directory 
+rmkdir - remove directory 
+echo “Hi” > test.txt  
+cp test.txt /download/    - copy  “the file you want to copy”  “The destination and the name of the file”
+locate - gives the paths where you can find that 
+updatedb 
+passwd - to change the password 
+man - give the info or details of the commands 
+touch- for creating the file 
+
+Users privileages  or file permissions 
+ls -la /tmp/  
+cat - to read the file  
+chmod +rwx or chmod +w or chmod +r ... - to change the permissions of the file 
+chmod 777 hello.txt 
+adduser John 
+cat /etc/passwd - to check the user's passwords there  
+cat /etc/shadow 
+su john 
+su root
+
+Network commands
+ifconfig 
+iwconfig 
+ping ip address 
+arp -a 
+netstat -ano 
+route 
+ip a - new and improve version of ifconfig 
+ip n -  n stands for neighbor 
+netdiscover 
+netdiscover -i wlan0 -r 192.168.1.1/24
+
+Installing & updating the tools    
+apt update && apt upgrade 
+apt install python-pip 
+
+To fix the kali for all the (cyber mantor recommandations) versions and tools is install the pimpmykali
+it's a good practise to install all the tools in /opt  folder so 
+cd /opt 
+git clone “the link”
+./pimpmykali.sh - to run the file 
+
+The text editor (cyber mentor use is gedit) I'm going to use nano 
+
+ 
+ 
+
+
+

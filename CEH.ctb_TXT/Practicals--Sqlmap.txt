@@ -1,0 +1,6 @@
+## Sqlmap
+https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF 
+
+https://owasp.org/www-community/attacks/SQL_Injection 
+
+

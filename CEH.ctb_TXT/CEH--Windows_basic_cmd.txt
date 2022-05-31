@@ -1,0 +1,20 @@
+## Windows basic cmd
+ps - list running processes
+ls - list files 
+ipconfig - shows system ip 
+migrate - Using the migrate post module, you can migrate to another process on the victim.
+cd - change directory 
+pwd - present working directory 
+clearev - clear application, system, secuirty logs on a windows system 
+cat - to read the files 
+background - background the ongoing sessions 
+help -  helps 
+download - 
+edit - 
+getuid - 
+hashdump - 
+idletime - 
+search - 
+shell - 
+
+

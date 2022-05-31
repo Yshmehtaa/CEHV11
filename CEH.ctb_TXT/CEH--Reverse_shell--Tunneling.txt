@@ -1,0 +1,8 @@
+### Tunneling
+ssh: https://www.ssh.com/academy/ssh/tunneling/example 
+
+socat:
+socat TCP_LISTEN:8484,fork,reuseaddr TCP:127.0.0.1:8080 &  
+ 
+ 
+

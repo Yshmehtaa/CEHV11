@@ -1,0 +1,10 @@
+## smbmap
+https://www.kali.org/tools/smbmap/ 
+
+smbmap -u “”  -p “” -H (ip)  -x  “command” 
+
+-u  username 
+-p password 
+-H  host 
+-x command  
+

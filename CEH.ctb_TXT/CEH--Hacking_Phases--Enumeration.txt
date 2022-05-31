@@ -1,0 +1,56 @@
+### Enumeration
+#NetBios Enum
+nmap -sV -v --script nbstat.nse  ip 
+nmap  -sU -p 137 --script-nbstat.nse ip 
+
+#SNMP Enum 
+nmap -sU -p 161 ip 
+snmb-check ip 
+
+#Dns Enum 
+zone tranfer 
+dig ns ip or domain  
+dig @ns ip or domain 
+
+nsloookup 
+dnsrecon -d domain -z 
+
+#FTP, RCP, SMB Enum 
+nmap -p 21 ip 
+nmap -T4 -A ip 
+nmap -p 445 ip 
+
+nikto -h URL 
+locate * .nse | grep ftp 
+nmap -p 21 --script=ftp-anon.nse ip 
+ftp -anonymous login 
+post expolitation module  
+
+enum4linux -u admin -p passwd -n ip 
+-u ip 
+-o ip 
+-G ip 
+-S ip 
+
+#SMB 
+139 - smb over netbios 
+445 - smb over tcp 
+https://www.kali.org/tools/smbmap/ 
+
+smbmap -u “”  -p “” -H (ip)  -x  “command” 
+
+-u  username 
+-p password 
+-H  host 
+-x command  
+nmblookup 
+smbclient
+
+#SMTP 
+./ -user-enum.p -M VERIFY -U -t 
+msfconsole 
+searchsploit smb 
+
+
+
+

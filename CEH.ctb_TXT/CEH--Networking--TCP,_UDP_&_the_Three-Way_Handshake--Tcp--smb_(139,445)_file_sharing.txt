@@ -1,0 +1,5 @@
+##### smb (139,445) file sharing
+Latest exploit in this port is wanna cry randomware attack EternalBlue-ms170-010 and another more danger NotPetya 
+ 
+port used for file sharing used in work environment or internal network 
+

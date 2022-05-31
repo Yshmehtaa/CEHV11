@@ -1,0 +1,8 @@
+##### www (http,https) (80,443)
+enumeration
+nikto/sublist3r/dirbuster/dirb/gobuster/ffuf  - Directory brute forcing, directory vulnerability finder, uses the wordlist for the common website sub-domain 
+
+look out for the services version available, backend directory, source code, etc. 
+
+   
+

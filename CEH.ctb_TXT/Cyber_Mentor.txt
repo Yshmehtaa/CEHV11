@@ -1,0 +1,17 @@
+# Cyber Mentor
+https://www.youtube.com/watch?v=fNzpcB7ODxQ&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47   This notes are made for this lnk and some personal research and learning  
+
+https://www.youtube.com/watch?v=24fHLWXGS-M WEB application hacking and the book webhacking101 
+
+http://159.69.3.96/ebooks/IT/Hacking/ for getting each and every possible book online  
+
+Resources 
+ 
+
+
+
+https://github.com/imrk51/CEH-v11-Study-Guide  Best overview each and every thing is in bullet and is of v11 
+
+https://owasp.org/www-project-web-security-testing-guide/latest/ (can read for web application better understanding )
+
+

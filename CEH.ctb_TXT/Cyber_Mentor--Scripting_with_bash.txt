@@ -1,0 +1,29 @@
+## Scripting with bash
+Scripts are used for running the multiple things at a time or for doing the automation
+
+Srcipt for searching multiple IP in network
+ping IP -c 1 > spidy.txt 
+cat spidy.txt | grep “64 bytes” | cut -d “ ” -f 4 | tr -d “:”     (tr translate, -d delimiter, -f  field )
+
+mousepad ipsweep.sh 
+#!/bin/bash 
+
+if [ "$1" == " " ]
+then 
+echo “You forget an IP address” 
+echo “Syntax: ./ipsweep.sh 192.168.4”
+
+else
+for ip in `seq 1 254`; do 
+ping -c 1 $1.$ip | grep “64 bytes” | cut -d “ ” -f 4 | tr -d “:”  & 
+done 
+fi
+
+./ipsweep 192.168.4 (to run)
+./ipsweep.sh 1921.68.4 > ips.txt  
+
+Scripts for scanning multiple IP at a time for nmap  
+for ip in $(cat ips.txt ); do nmap &ip; done   
+
+
+

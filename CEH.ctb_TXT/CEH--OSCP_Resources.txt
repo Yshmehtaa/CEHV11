@@ -1,0 +1,17 @@
+## OSCP Resources
+https://book.hacktricks.xyz/ 
+
+https://oscpnotes.infosecsanyam.in/My_OSCP_Preparation_Notes.htm 
+
+https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html 
+
+https://blog.adithyanak.com/ 
+
+https://github.com/wwong99/pentest-notes 
+
+https://github.com/imrk51/CEH-v11-Study-Guide  
+
+https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/ 
+
+
+
