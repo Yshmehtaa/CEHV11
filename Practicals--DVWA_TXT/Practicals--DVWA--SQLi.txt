@@ -1,0 +1,8 @@
+### SQLi
+https://jaypomal.medium.com/implementing-sql-injection-in-dvwa-2091879d44a2 
+https://nooblinux.com/sql-injection-exploitation-explanation-examples-using-dvwa/ 
+https://www.golinuxcloud.com/dvwa-sql-injection/ 
+https://www.computersecuritystudent.com/SECURITY_TOOLS/DVWA/DVWAv107/lesson6/index.html 
+https://pentestlab.blog/2012/09/18/sql-injection-exploitation-dvwa/ 
+
+

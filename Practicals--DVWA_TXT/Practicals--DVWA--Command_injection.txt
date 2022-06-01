@@ -1,0 +1,13 @@
+### Command injection
+192.168.1.1 
+1. cat /etc/passwd
+192.168.1.1 cat /etc/passwd 
+
+looking at the vulnerabilites
+1. cat /var/www/html/dvwa/vulnerabilities/exec/source/low.php
+https://bughacking.com/dvwa-ultimate-guide-first-steps-and-walkthrough/ 
+https://www.computersecuritystudent.com/SECURITY_TOOLS/DVWA/DVWAv107/lesson2/index.html
+https://medium.com/@juan.tirtayana/dvwa-v1-10-command-injection-all-difficulty-attack-phase-securing-the-code-70de3eec564f 
+https://chris-young.net/2018/03/28/dvwa-command-injection/ 
+
+

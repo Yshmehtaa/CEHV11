@@ -1,0 +1,7 @@
+### IDOR
+https://spanning.com/blog/insecure-direct-object-reference-web-based-application-security-part-6/ 
+https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf 
+https://bughacking.com/dvwa-ultimate-guide-first-steps-and-walkthrough/ 
+
+
+
